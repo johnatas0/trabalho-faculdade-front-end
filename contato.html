@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="[Johnatas]">
+    <title>contato</title>
+    <link rel="responsivo" href="resp.css">
+    <link rel="stylesheet" href="stilo.css">
+
+</head>
+<body>
+
+<h1 style="font-size: 60px;">Entre em comtato</h1>
+
+<!--formulario de contato não tive dificuldade avia aprendido muito na parte de estudos-->
+<form onsubmit="return validarFormulario()"></form>
+    <fieldset style="width: 470px;">
+        <legend>contato</legend>
+        <label for="nome"> nome&#58;</label>
+        <input id="nome" type="text" placeholder="digite seu nome completo" size="51"><br>
+        <label for="email"> email&#58;</label>
+        <input style="margin: 8px 0 5px 0;" required id="email" type="email" placeholder="email" autocomplete="email" size="51"><br>
+        <label for="recado">deixe seus recados</label><br>
+        <textarea name="recados" id="recado" cols="57" rows="7" maxlength="400" placeholder="Campo obrigatório"></textarea><br>
+        <button type="reset">corrigir</button>
+        <button type="submit" autofocus>enviar</button>
+    </fieldset>
+</form>
+
+<script src="frontend.js"></script>
+
+<!--uma parte simples so para que eu possa lembrar como posso deixar meu contato-->
+<h3 style="margin: 15px; color: aquamarine;" id="about">sobre mim</h3>
+<p>
+    <a href="http://google.com.br">sit</a>
+    <a href="mailto:john....@gmail.com">email</a>
+    <a href="tel:+5534996......">telefone</a>
+</p>
+
+
+
+
+<nav style="color: rgb(36, 143, 237);">
+    <ul>
+        <li><a style="color: aliceblue;" href="inicio.html">inicio</a></li>
+        <li><a style="color: aliceblue;" href="sobre.html">Sobre</a></li>
+        <li><a style="color: aliceblue;" href="estudos.html">estudos</a></li>
+    </ul>
+</nav>
+
+</body>
+</html>
